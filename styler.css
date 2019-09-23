@@ -19,6 +19,37 @@ body{
 	color: coral;
 	padding: 2px;
 }
+.cont a{
+	text-decoration: none;
+	color: white;
+}
+.about1{
+	margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+  animation: myfirst 4s linear 0.1s infinite alternate; 
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst{
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:1250px; top:0px;}
+  50%  {background-color:blue; left:1250px; top:300px;}
+  75%  {background-color:green; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:1020px; top:0px;}
+  50%  {background-color:blue; left:1020px; top:450px;}
+  75%  {background-color:green; left:0px; top:450px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
 
 .about ,.skill {
 	text-align: center;
@@ -68,12 +99,13 @@ body{
 .web ul{
 	text-align: left;
 }
-.about h2{
+.skill h2{
 	background-color: blue;
 	color:rgb(300,400,0);
 	font-size: 40px;
 	padding: 5px;
 	margin: 40px  400px;
+	margin-top: 120px;
 	float: center;
 	 border: 5px red groove;
 	 border-radius: 30px;
@@ -118,6 +150,10 @@ body{
 .find ul{
 	color: coral;
 	list-style: square;
+}
+.find a{
+	text-decoration: none;
+	font-size: 50px;
 }
 a:hover{
 	color: green;
