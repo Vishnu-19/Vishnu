@@ -208,33 +208,5 @@ footer p a{
 	font-size:100%; 
 	margin:0;
 	}
-	.about1{
-	margin-top: 10px;
-  width: 30px;
-  height: 30px;
-  background-color: red;
-  position: relative;
-  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
-  animation: myfirst 4s linear 0.1s infinite alternate; 
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes myfirst{
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:250px; top:0px;}
-  50%  {background-color:blue; left:250px; top:300px;}
-  75%  {background-color:green; left:0px; top:300px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes myfirst {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:510px; top:0px;}
-  50%  {background-color:blue; left:510px; top:460px;}
-  75%  {background-color:green; left:0px; top:460px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
-
 }
 
